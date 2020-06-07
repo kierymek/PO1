@@ -1,0 +1,78 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/board.h
+iostream
+-
+
+../include/game.h
+iostream
+-
+board.h
+../include/board.h
+
+../include/matrix.h
+iostream
+-
+vector.h
+../include/vector.h
+
+../include/sapper.h
+iostream
+-
+game.h
+../include/game.h
+matrix.h
+../include/matrix.h
+sapper_board.h
+../include/sapper_board.h
+board.h
+../include/board.h
+
+../include/sapper_board.h
+iostream
+-
+board.h
+../include/board.h
+
+../include/vector.h
+iostream
+-
+
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_4/play.cpp
+iostream
+-
+board.h
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_4/board.h
+sapper_board.h
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_4/sapper_board.h
+game.h
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_4/game.h
+sapper.h
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_4/sapper.h
+
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_4/src/board.cpp
+
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_4/src/game.cpp
+
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_4/src/matrix.cpp
+matrix.h
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_4/src/matrix.h
+
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_4/src/sapper.cpp
+sapper.h
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_4/src/sapper.h
+
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_4/src/sapper_board.cpp
+sapper_board.h
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_4/src/sapper_board.h
+
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_4/src/vector.cpp
+vector.h
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_4/src/vector.h
+

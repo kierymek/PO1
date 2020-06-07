@@ -1,0 +1,60 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/coronavirus.h
+iostream
+-
+gene_sequence.h
+../include/gene_sequence.h
+virus.h
+../include/virus.h
+vector
+-
+
+../include/dna.h
+iostream
+-
+gene_sequence.h
+../include/gene_sequence.h
+vector
+-
+
+../include/gene_sequence.h
+vector
+-
+ostream
+-
+
+../include/virus.h
+iostream
+-
+gene_sequence.h
+../include/gene_sequence.h
+vector
+-
+
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_5/main.cpp
+iostream
+-
+gene_sequence.h
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_5/gene_sequence.h
+dna.h
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_5/dna.h
+virus.h
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_5/virus.h
+coronavirus.h
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_5/coronavirus.h
+
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_5/src/gene_sequence.cpp
+gene_sequence.h
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_5/src/gene_sequence.h
+
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_5/src/virus.cpp
+virus.h
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_5/src/virus.h
+

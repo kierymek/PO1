@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/wire.h
+iostream
+-
+time.h
+-
+
+/mnt/c/Users/Góral/Desktop/programowanie/kotko/lab_1/main.cpp
+iostream
+-
+cmath
+-
+vector
+-
+algorithm
+-
+wire.h
+/mnt/c/Users/Góral/Desktop/programowanie/kotko/lab_1/wire.h
+
+/mnt/c/Users/Góral/Desktop/programowanie/kotko/lab_1/src/wire.cpp
+wire.h
+/mnt/c/Users/Góral/Desktop/programowanie/kotko/lab_1/src/wire.h
+

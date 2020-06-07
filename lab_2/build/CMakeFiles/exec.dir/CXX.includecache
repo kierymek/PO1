@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/vector.h
+iostream
+-
+
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_2/main.cpp
+iostream
+-
+cmath
+-
+vector
+-
+algorithm
+-
+vector.h
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_2/vector.h
+
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_2/src/vector.cpp
+vector.h
+/mnt/c/Users/Adrian Góral/Desktop/programowanie/KOTKO/lab_2/src/vector.h
+

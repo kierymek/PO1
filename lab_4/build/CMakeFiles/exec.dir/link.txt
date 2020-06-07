@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -g  -rdynamic CMakeFiles/exec.dir/play.cpp.o CMakeFiles/exec.dir/src/board.cpp.o CMakeFiles/exec.dir/src/game.cpp.o CMakeFiles/exec.dir/src/matrix.cpp.o CMakeFiles/exec.dir/src/sapper.cpp.o CMakeFiles/exec.dir/src/sapper_board.cpp.o CMakeFiles/exec.dir/src/vector.cpp.o  -o exec 

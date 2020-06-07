@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -g  -rdynamic CMakeFiles/exec.dir/main.cpp.o CMakeFiles/exec.dir/src/wire.cpp.o  -o exec 
